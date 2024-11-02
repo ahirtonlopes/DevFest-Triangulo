@@ -31,6 +31,6 @@ Para executar o notebook, você precisará dos seguintes pacotes:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/ahirtonlopes/DevFest-BH.git
-   cd DevFest-BH
+   git clone https://github.com/ahirtonlopes/DevFest-Triangulo.git
+   cd DevFest-Triangulo
    ```
