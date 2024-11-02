@@ -1,2 +1,36 @@
-# DevFest-Triangulo
-About Repositório da palestra "No PhD Required: IA Generativa com Keras," demonstrando como utilizar Autoencoders Variacionais (VAEs) em Keras para criar modelos de IA generativa. Inclui um notebook (Demo_Variational_Autoencoders.ipynb) com explicação prática e simplificada sobre como VAEs funcionam e geram novas amostras de dados.
+# DevFest-Triângulo - Uberlândia - No PhD Required: IA Generativa com Keras 🎓🤖
+
+Este repositório contém materiais e exemplos práticos da palestra **"No PhD Required: IA Generativa com Keras"**, onde discutimos como cientistas e não-cientistas podem iniciar a criação de IAs generativas utilizando o Keras. 
+
+O objetivo da palestra foi desmistificar os conceitos por trás de modelos generativos, mostrando, através de uma demonstração prática, como os **Autoencoders Variacionais (VAEs)** podem ser utilizados para gerar novas amostras de dados semelhantes a um conjunto de dados original. 
+
+## Estrutura do Repositório
+
+- `Demo_Variational_Autoencoders.ipynb`: Este notebook contém o exemplo prático utilizado durante a palestra. Nele, mostramos:
+  - Os fundamentos teóricos dos Autoencoders Variacionais (VAEs) e sua utilização em tarefas de geração de dados.
+  - Implementação passo a passo de um VAE em Keras, com explicações sobre cada etapa do processo.
+  - Visualização e análise dos resultados, incluindo a criação de novas amostras baseadas nos dados de entrada.
+
+## Descrição da Demo
+
+Nesta demonstração, usamos o Keras para construir e treinar um **VAE** com o objetivo de gerar dados em um espaço latente controlado. Alguns dos principais tópicos abordados incluem:
+1. **Codificação Variacional**: Explicação sobre como a codificação dos dados é feita no espaço latente, permitindo que a rede aprenda representações compactas e interpretáveis.
+2. **Reparametrização e Sampling**: Detalhes sobre como o VAE lida com a variância no espaço latente e amostra novas representações para a geração de dados.
+3. **Reconstrução e Geração de Novas Amostras**: Como o VAE reconstrói os dados de entrada e gera novos exemplos, aproximando-se da distribuição original dos dados.
+
+## Requisitos
+
+Para executar o notebook, você precisará dos seguintes pacotes:
+- `tensorflow`
+- `keras`
+- `numpy`
+- `matplotlib`
+
+## Como Usar
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/ahirtonlopes/DevFest-BH.git
+   cd DevFest-BH
+   ```
